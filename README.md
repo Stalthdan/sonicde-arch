@@ -53,6 +53,7 @@ The included packages will replace any of their installed KDE counterparts. When
 
 ```shell
 sudo pacman -S sonicde-meta
+sudo systemctl stop plasmalogin
 sudo systemctl enable soniclogin
 sudo systemctl start soniclogin
 ```
