@@ -1,0 +1,25 @@
+pkgbase = sonic-night-light
+	pkgdesc = Helpers for scheduling the dark-light cycle
+	pkgver = 6.7.3
+	pkgrel = 1
+	url = https://github.com/Sonic-DE/sonic-night-light
+	arch = x86_64
+	groups = sonicde
+	license = LGPL
+	makedepends = ki18n
+	makedepends = qt6-tools
+	makedepends = sonic-frameworks-cmake-modules
+	depends = gcc-libs
+	depends = glibc
+	depends = kconfig
+	depends = kdbusaddons
+	depends = kholidays
+	depends = qt6-base
+	depends = qt6-positioning
+	depends = sonic-frameworks-core-addons
+	provides = knighttime
+	conflicts = knighttime
+	source = sonic-night-light-6.7.0.tar.gz::https://github.com/Sonic-DE/sonic-night-light/archive/refs/tags/6.7.0.tar.gz
+	sha256sums = 662d7184b9cbfbb24539916e0ae052c021652dfaa475f1448f894f1e5e69eb56
+
+pkgname = sonic-night-light

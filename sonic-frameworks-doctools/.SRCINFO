@@ -1,0 +1,27 @@
+pkgbase = sonic-frameworks-doctools
+	pkgdesc = Documentation generation from docbook
+	pkgver = 6.28.0
+	pkgrel = 1
+	url = https://github.com/Sonic-DE/sonic-frameworks-doctools
+	arch = x86_64
+	groups = sonicde-frameworks
+	license = LGPL-2.0-only
+	license = LGPL-3.0-only
+	makedepends = doxygen
+	makedepends = ki18n
+	makedepends = perl-uri
+	makedepends = qt6-tools
+	makedepends = sonic-frameworks-cmake-modules
+	depends = docbook-xsl
+	depends = glibc
+	depends = karchive
+	depends = libstdc++
+	depends = libxml2
+	depends = libxslt
+	depends = qt6-base
+	provides = kdoctools
+	conflicts = kdoctools
+	source = sonic-frameworks-doctools-6.27.0.tar.gz::https://github.com/Sonic-DE/sonic-frameworks-doctools/archive/refs/tags/6.27.0.tar.gz
+	sha256sums = 876d02c6c46926c3cd08c1430c32ddd51dbbd25098b58089a43155a56cfcaf58
+
+pkgname = sonic-frameworks-doctools
