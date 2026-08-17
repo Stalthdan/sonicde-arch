@@ -1,8 +1,8 @@
-pkgbase = sonic-silver-theme
+pkgbase = sonic-breeze
 	pkgdesc = Highly customizable binary Window Decoration, Application Style and Global Theme plugin for SonicDE.
-	pkgver = 6.6.0
-	pkgrel = 3
-	url = https://github.com/Sonic-DE/silver-theme
+	pkgver = 6.7.4.2
+	pkgrel = 1
+	url = https://github.com/Sonic-DE/sonic-breeze
 	arch = x86_64
 	groups = sonicde
 	license = LGPL-2.0-or-later
@@ -27,7 +27,6 @@ pkgbase = sonic-silver-theme
 	depends = sonic-frameworks-quick-ui
 	depends = sonic-frameworks-windowsystem
 	depends = xdg-utils
-	source = sonic-silver-theme-6.6.0.tar.gz::https://github.com/Sonic-DE/silver-theme/archive/refs/tags/6.6.0.tar.gz
-	sha256sums = 152eb85645a19180f28b695a7dcb6f429cbe40c3f8d7dec0d95a225405f70261
-
+	source = sonic-silver-6.7.4.1.tar.gz::https://github.com/Sonic-DE/silver-theme/archive/refs/tags/6.7.4.1.tar.gz
+	sha256sums = 5db64f324d534e5ca28162d49ef2757494f60e942aec57436ffc1187f9912298
 pkgname = sonic-silver-theme

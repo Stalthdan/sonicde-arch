@@ -6,8 +6,8 @@
 
 pkgbase=sonic-workspace
 pkgname=(sonic-workspace sonic-x11-session)
-pkgver=6.7.3
-pkgrel=2
+pkgver=6.7.4.5
+pkgrel=1
 pkgdesc='SonicDE workspace components'
 arch=(x86_64)
 url='https://github.com/Sonic-DE/sonic-workspace'
@@ -113,7 +113,7 @@ makedepends=(baloo
              sonic-frameworks-doctools)
 groups=(sonicde)
 source=("$pkgname-$pkgver.tar.gz::${url}/archive/refs/tags/${pkgver}.tar.gz")
-sha256sums=('7af9738eb5fd591e1aa17c751e39226760c4fd1f925faff5ec2e57590ca19a7d')
+sha256sums=('00c5f7467c28881c4a8be5bcadfadfaea348cfc9fcd28fb858973cce851b2bcd')
 
 build() {
   cmake -B build -S $pkgname-$pkgver \
@@ -139,7 +139,7 @@ package_sonic-workspace() {
 
   DESTDIR="$pkgdir" cmake --install build
 
-  rm -r "$pkgdir"/usr/share/xsessions/plasmax11.desktop
+  rm -r "$pkgdir"/usr/share/xsessions/sonicde.desktop
 }
 
 package_sonic-x11-session() {
@@ -149,5 +149,5 @@ package_sonic-x11-session() {
   conflicts=(plasma-x11-session)
   groups=(sonicde)
 
-  install -Dm644 build/login-sessions/plasmax11.desktop -t "$pkgdir"/usr/share/xsessions
+  install -Dm644 build/login-sessions/sonicde.desktop -t "$pkgdir"/usr/share/xsessions
 }

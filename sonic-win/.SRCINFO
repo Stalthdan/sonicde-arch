@@ -1,6 +1,6 @@
 pkgbase = sonic-win
 	pkgdesc = An easy to use, but flexible, X Window Manager
-	pkgver = 6.7.3
+	pkgver = 6.7.4.3
 	pkgrel = 1
 	url = https://github.com/Sonic-DE/sonic-win
 	install = sonic-win.install
@@ -67,6 +67,6 @@ pkgbase = sonic-win
 	provides = kwin-x11
 	conflicts = kwin-x11
 	source = sonic-win-6.7.0.tar.gz::https://github.com/Sonic-DE/sonic-win/archive/refs/tags/6.7.0.tar.gz
-	sha256sums = 724346a9fbe692741e4aab451c2c5ecb9c5dc3c94999eec82904b2fee3265d79
+	sha256sums = df7f7f39741da7d4abace2259b05f31ceaed818e1bf599f7d1c407cfecf56f95
 
 pkgname = sonic-win

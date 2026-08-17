@@ -1,7 +1,7 @@
 pkgbase = sonic-workspace
 	pkgdesc = SonicDE workspace components
-	pkgver = 6.7.3
-	pkgrel = 2
+	pkgver = 6.7.4.5
+	pkgrel = 1
 	url = https://github.com/Sonic-DE/sonic-workspace
 	arch = x86_64
 	groups = sonicde
@@ -106,7 +106,7 @@ pkgbase = sonic-workspace
 	depends = xorg-xrdb
 	depends = zlib
 	source = sonic-workspace-6.7.0.tar.gz::https://github.com/Sonic-DE/sonic-workspace/archive/refs/tags/6.7.0.tar.gz
-	sha256sums = 7af9738eb5fd591e1aa17c751e39226760c4fd1f925faff5ec2e57590ca19a7d
+	sha256sums = 00c5f7467c28881c4a8be5bcadfadfaea348cfc9fcd28fb858973cce851b2bcd
 
 pkgname = sonic-workspace
 	groups = sonicde

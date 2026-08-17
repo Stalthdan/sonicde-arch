@@ -11,7 +11,6 @@ license=(None)
 url='https://github.com/Sonic-DE'
 depends=(aurorae
          bluedevil
-         breeze
          breeze-gtk
          drkonqi
          flatpak-kcm
@@ -48,7 +47,7 @@ depends=(aurorae
          sonic-network-manager
          sonic-night-light
          sonic-screen
-         sonic-silver-theme
+         sonic-silver
          sonic-system-info
          sonic-workspace-addons
          sonic-x11-session
@@ -62,5 +61,6 @@ optdepends=('breeze-grub: Breeze theme for GRUB'
             'plasma-workspace-wallpapers: Additional wallpapers'
             'plymouth-kcm: Configure Plymouth from systemsettings'
             'sddm-kcm: SDDM configuration module'
+            'sonic-breeze: Breeze theme for SonicDE'
             'sonic-silver-sddm: SDDM silver theme'
             'wacomtablet: Drawing tablet settings on X')
