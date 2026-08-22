@@ -10,8 +10,7 @@ pkgdesc='Library to retrieve information on the current status of computer hardw
 arch=(x86_64)
 url='https://github.com/Sonic-DE/sonic-system-monitor-library'
 license=(LGPL-2.0-or-later)
-depends=(gcc-libs
-         glibc
+depends=(glibc
          kconfig
          kdeclarative
          ki18n
@@ -21,8 +20,10 @@ depends=(gcc-libs
          kquickcharts
          kservice
          libdrm
+         libgcc
          libnl
          libpcap
+         libstdc++
          lm_sensors
          qt6-5compat
          qt6-base
@@ -30,7 +31,8 @@ depends=(gcc-libs
          solid
          sonic-frameworks-auth
          sonic-frameworks-core-addons
-         sonic-frameworks-quick-ui)
+         sonic-frameworks-quick-ui
+         systemd-libs)
 makedepends=(qt6-tools
              sonic-frameworks-cmake-modules)
 provides=(libksysguard)

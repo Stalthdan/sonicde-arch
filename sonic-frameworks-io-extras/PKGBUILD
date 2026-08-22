@@ -5,13 +5,12 @@
 
 pkgname=sonic-frameworks-io-extras
 pkgver=26.04.3
-pkgrel=2
+pkgrel=1
 pkgdesc='Additional components to increase the functionality of sonic-frameworks-io'
 arch=(x86_64)
 url='https://github.com/Sonic-DE/sonic-frameworks-io-extras'
 license=(LGPL-2.0-or-later)
-depends=(gcc-libs
-         glibc
+depends=(glibc
          karchive
          kcmutils
          kconfig
@@ -46,8 +45,8 @@ depends=(gcc-libs
 makedepends=(gperf
              libappimage
              openexr
-             plasma-activities-stats
              qcoro
+             sonic-activities-stats
              sonic-frameworks-cmake-modules
              sonic-frameworks-doctools
              taglib)
@@ -55,8 +54,8 @@ optdepends=('kimageformats: thumbnails for additional image formats'
             'libappimage: AppImage thumbnails'
             'openexr: EXR format thumbnails'
             'perl: info kioslave'
-            'plasma-activities-stats: recently used kioslave'
             'qt6-imageformats: thumbnails for additional image formats'
+            'sonic-activities-stats: recently used kioslave'
             'taglib: audio file thumbnails')
 provides=(kio-extras)
 conflicts=(kio-extras)

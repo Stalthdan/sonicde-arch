@@ -13,7 +13,6 @@ license=(LGPL-2.0-or-later)
 depends=(aha
          clinfo
          dmidecode
-         gcc-libs
          glibc
          glu
          iproute2 # ip
@@ -25,6 +24,7 @@ depends=(aha
          libdisplay-info
          libdrm
          libpulse # pactl
+         libstdc++
          libusb
          lm_sensors
          mesa-utils

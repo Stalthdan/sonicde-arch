@@ -20,12 +20,15 @@ depends=(breeze-icons
          ki18n
          kiconthemes
          kwidgetsaddons
+         libstdc++
          qt6-base
          qt6-declarative
          qt6-svg
          sonic-decoration
+         sonic-frameworks-color-scheme
          sonic-frameworks-core-addons
          sonic-frameworks-gui-addons
+         sonic-frameworks-icon-themes
          sonic-frameworks-quick-ui
          sonic-frameworks-windowsystem
          xdg-utils)

@@ -8,20 +8,19 @@ pkgdesc='SonicDE applet for audio volume management using PulseAudio'
 arch=(x86_64)
 url='https://github.com/Sonic-DE/sonic-audio-applet-pulse'
 license=(LGPL-2.0-or-later)
-depends=(gcc-libs
-         glib2
+depends=(glib2
          glibc
          kcmutils
          kconfig
          kdbusaddons
          kdeclarative
          ki18n
-         kirigami-addons
          kitemmodels
          kstatusnotifieritem
          ksvg
          libcanberra
          libpulse
+         libstdc++
          pulse-native-provider
          pulseaudio-qt
          qt6-base
@@ -29,6 +28,7 @@ depends=(gcc-libs
          sonic-frameworks-core-addons
          sonic-frameworks-keybind
          sonic-frameworks-quick-ui
+         sonic-frameworks-quick-ui-addons
          sonic-interface-libraries
          sonic-workspace)
 makedepends=(sonic-frameworks-cmake-modules

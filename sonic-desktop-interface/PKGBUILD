@@ -12,20 +12,16 @@ url='https://github.com/Sonic-DE/sonic-desktop-interface'
 license=(LGPL-2.0-or-later)
 depends=(baloo
          emoji-font # for clock and language KCMs
-         gcc-libs
          glibc
          kbookmarks
          kcmutils
          kcodecs
          kcompletion
          kconfig
-         kconfigwidgets
          kcrash
          kdbusaddons
          kdeclarative
          ki18n
-         kiconthemes
-         kirigami-addons
          kitemmodels
          kitemviews
          kjobwidgets
@@ -40,6 +36,7 @@ depends=(baloo
          kwidgetsaddons
          kxmlgui
          libcanberra
+         libstdc++
          libwacom
          libx11
          libxcb
@@ -47,7 +44,6 @@ depends=(baloo
          libxi
          libxkbcommon
          libxkbfile
-         plasma-activities-stats
          plasma5support
          polkit-kde-agent
          powerdevil
@@ -57,14 +53,18 @@ depends=(baloo
          sdl2
          solid
          sonic-activities
+         sonic-activities-stats
          sonic-frameworks-auth
          sonic-frameworks-core-addons
          sonic-frameworks-gui-addons
+         sonic-frameworks-icon-themes
          sonic-frameworks-io
          sonic-frameworks-keybind
          sonic-frameworks-open-collab
          sonic-frameworks-quick-ui
+         sonic-frameworks-quick-ui-addons
          sonic-frameworks-runner
+         sonic-frameworks-settings-ui
          sonic-frameworks-windowsystem
          sonic-interface-libraries
          sonic-system-monitor-library

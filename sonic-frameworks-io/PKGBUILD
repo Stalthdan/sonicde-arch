@@ -14,13 +14,11 @@ depends=(acl
          glibc
          karchive
          kbookmarks
-         kcolorscheme
          kcompletion
          kconfig
          kcrash
          kdbusaddons
          ki18n
-         kiconthemes
          kitemviews
          kjobwidgets
          kservice
@@ -31,8 +29,10 @@ depends=(acl
          libxslt
          qt6-base
          solid
+         sonic-frameworks-color-scheme
          sonic-frameworks-core-addons
          sonic-frameworks-gui-addons
+         sonic-frameworks-icon-themes
          sonic-frameworks-windowsystem
          util-linux-libs)
 makedepends=(doxygen
@@ -41,9 +41,9 @@ makedepends=(doxygen
              sonic-frameworks-doctools)
 optdepends=('audiocd-kio: for accessing audio CDs'
             'kded: proxy management and cookie storage'
-            'kio-fuse: to mount remote filesystems via FUSE'
             'sonic-frameworks-doctools: for the help kioslave'
-            'sonic-frameworks-io-extras: extra protocols support (sftp, fish and more)'
+            'sonic-frameworks-io-extras: extra protocols support (sftp, fish and more'
+            'sonic-frameworks-io-fuse: to mount remote filesystems via FUSE'
             'switcheroo-control: hybrid GPU support')
 provides=(kio)
 conflicts=(kio)

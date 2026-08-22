@@ -11,12 +11,9 @@ license=(None)
 url='https://github.com/Sonic-DE'
 depends=(aurorae
          bluedevil
-         breeze-gtk
          drkonqi
          flatpak-kcm
          kactivitymanagerd
-         kde-cli-tools
-         kde-gtk-config
          kmenuedit
          kpipewire
          krdp
@@ -28,11 +25,9 @@ depends=(aurorae
          ocean-sound-theme
          oxygen
          oxygen-sounds
-         plasma-activities-stats
          plasma-browser-integration
          plasma-disks
          plasma-firewall
-         plasma-integration
          plasma-keyboard
          plasma-systemmonitor
          plasma-thunderbolt
@@ -41,26 +36,32 @@ depends=(aurorae
          polkit-kde-agent
          powerdevil
          print-manager
+         sonic-activities-stats
          sonic-audio-applet-pulse
          sonic-desktop-interface
+		 sonic-ecco
+         sonic-gtk-theme-bridge
          sonic-login-manager
          sonic-network-manager
          sonic-night-light
+         sonic-qt-theme-bridge
          sonic-screen
+         sonic-screenies
          sonic-silver
+         sonic-silver-gtk
          sonic-system-info
+         sonic-terminal
+         sonic-terminal-tools
          sonic-workspace-addons
-         sonic-x11-session
-         spectacle
          systemsettings
          xdg-desktop-portal-kde)
 optdepends=('breeze-grub: Breeze theme for GRUB'
             'breeze-plymouth: Breeze theme for Plymouth'
             'kgamma: Adjust gamma settings on X'
             'plasma-sdk: Development tools'
-            'plasma-workspace-wallpapers: Additional wallpapers'
             'plymouth-kcm: Configure Plymouth from systemsettings'
             'sddm-kcm: SDDM configuration module'
             'sonic-breeze: Breeze theme for SonicDE'
             'sonic-silver-sddm: SDDM silver theme'
+            'sonic-workspace-wallpapers: Additional wallpapers'
             'wacomtablet: Drawing tablet settings on X')

@@ -10,9 +10,9 @@ pkgdesc='Plugin based library to create window decorations'
 arch=(x86_64)
 url='https://github.com/Sonic-DE/sonic-decoration'
 license=(LGPL-2.0-or-later)
-depends=(gcc-libs
-         glibc
+depends=(glibc
          ki18n
+         libstdc++
          qt6-base)
 makedepends=(sonic-frameworks-cmake-modules)
 provides=(kdecoration)

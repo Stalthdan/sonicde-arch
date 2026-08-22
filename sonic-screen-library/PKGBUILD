@@ -10,8 +10,9 @@ pkgdesc='SonicDE screen management library'
 arch=(x86_64)
 url='https://github.com/Sonic-DE/sonic-screen-library'
 license=(LGPL-2.0-or-later)
-depends=(gcc-libs
-         glibc
+depends=(glibc
+         libgcc
+         libstdc++
          libxcb
          qt6-base)
 makedepends=(qt6-tools
