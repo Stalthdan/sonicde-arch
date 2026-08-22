@@ -1,6 +1,6 @@
 pkgbase = sonic-screenies
 	pkgdesc = SonicDE screenshot capture utility
-	pkgver = 6.7.4
+	pkgver = 6.7.4.1
 	pkgrel = 1
 	epoch = 1
 	url = https://github.com/Sonic-DE/sonic-screenies
@@ -47,7 +47,7 @@ pkgbase = sonic-screenies
 	conflicts = spectacle
 	source = sonic-screenies-6.7.4.tar.gz::https://github.com/Sonic-DE/sonic-screenies/archive/refs/tags/6.7.4.tar.gz
 	source = 0001-use-opencv5-when-available.patch
-	sha256sums = e9595ae6bb420bebebabd36322b203975bb0e30fae0563118776f834e4d61844
+	sha256sums = 0fdcc97011395bcfa0c411295912f495482b7c69e60755bc60e58711bcc33b9d
 	sha256sums = 987b1c7a253c448c6a310e339a4ead20b16247865ae5ea45326722dac38ed61d
 
 pkgname = sonic-screenies
