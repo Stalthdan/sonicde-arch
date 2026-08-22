@@ -56,8 +56,8 @@ pkgbase = sonicde-meta
 	optdepends = plasma-sdk: Development tools
 	optdepends = plasma-workspace-wallpapers: Additional wallpapers
 	optdepends = plymouth-kcm: Configure Plymouth from systemsettings
-	optdepends = sonic-breeze: Breeze theme for SonicDE
 	optdepends = sddm-kcm: SDDM configuration module
+	optdepends = sonic-breeze: Breeze theme for SonicDE
 	optdepends = sonic-silver-sddm: SDDM silver theme
 	optdepends = wacomtablet: Drawing tablet settings on X
 

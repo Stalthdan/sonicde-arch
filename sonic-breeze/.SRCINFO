@@ -27,6 +27,7 @@ pkgbase = sonic-breeze
 	depends = sonic-frameworks-quick-ui
 	depends = sonic-frameworks-windowsystem
 	depends = xdg-utils
-	source = sonic-silver-6.7.4.1.tar.gz::https://github.com/Sonic-DE/silver-theme/archive/refs/tags/6.7.4.1.tar.gz
+	source = sonic-breeze-6.7.4.2.tar.gz::https://github.com/Sonic-DE/sonic-breeze/archive/refs/tags/6.7.4.2.tar.gz
 	sha256sums = 5db64f324d534e5ca28162d49ef2757494f60e942aec57436ffc1187f9912298
-pkgname = sonic-silver-theme
+
+pkgname = sonic-breeze

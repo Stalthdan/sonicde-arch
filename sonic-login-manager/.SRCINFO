@@ -34,7 +34,7 @@ pkgbase = sonic-login-manager
 	depends = xorg-server
 	provides = plasma-login-manager
 	conflicts = plasma-login-manager
-	source = sonic-login-manager-6.7.2.2.tar.gz::https://github.com/Sonic-DE/sonic-login-manager/archive/refs/tags/6.7.2.2.tar.gz
+	source = sonic-login-manager-6.7.4.4.tar.gz::https://github.com/Sonic-DE/sonic-login-manager/archive/refs/tags/6.7.4.4.tar.gz
 	sha256sums = e2490026a3ebc925accc545818d1c6b0652e62709752e8f9cd267d9febb90d32
 
 pkgname = sonic-login-manager

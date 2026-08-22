@@ -18,7 +18,7 @@ pkgbase = sonic-activities
 	provides = plasma-activities
 	conflicts = kactivities
 	conflicts = plasma-activities
-	source = sonic-activities-6.7.0.tar.gz::https://github.com/Sonic-DE/sonic-activities/archive/refs/tags/6.7.0.tar.gz
+	source = sonic-activities-6.7.4.tar.gz::https://github.com/Sonic-DE/sonic-activities/archive/refs/tags/6.7.4.tar.gz
 	sha256sums = b9d9ed858dc2d1d00ae6781d285c15379df2fa87b6288d9bda9576be263dea72
 
 pkgname = sonic-activities

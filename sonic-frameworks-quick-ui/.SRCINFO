@@ -19,7 +19,7 @@ pkgbase = sonic-frameworks-quick-ui
 	depends = qt6-svg
 	provides = kirigami
 	conflicts = kirigami
-	source = sonic-frameworks-quick-ui-6.27.0.tar.gz::https://github.com/Sonic-DE/sonic-frameworks-quick-ui/archive/refs/tags/6.27.0.tar.gz
+	source = sonic-frameworks-quick-ui-6.29.0.1.tar.gz::https://github.com/Sonic-DE/sonic-frameworks-quick-ui/archive/refs/tags/6.29.0.1.tar.gz
 	sha256sums = a092bbe4e0ad919e973ece9d0ba54c1f51013ae86d63fb1a7ddfd5a88b9d3b67
 
 pkgname = sonic-frameworks-quick-ui

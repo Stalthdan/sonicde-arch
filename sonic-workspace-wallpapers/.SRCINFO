@@ -10,7 +10,7 @@ pkgbase = sonic-workspace-wallpapers
 	makedepends = sonic-frameworks-cmake-modules
 	provides = plasma-workspace-wallpapers
 	conflicts = plasma-workspace-wallpapers
-	source = sonic-workspace-wallpapers-6.7.0.tar.gz::https://github.com/Sonic-DE/sonic-workspace-wallpapers/archive/refs/tags/6.7.0.tar.gz
+	source = sonic-workspace-wallpapers-6.7.4.1.tar.gz::https://github.com/Sonic-DE/sonic-workspace-wallpapers/archive/refs/tags/6.7.4.1.tar.gz
 	sha256sums = 5ef63972b620f5d1cfb96cfe41e5830e4c0def0e285b966889ca7a61b0d14859
 
 pkgname = sonic-workspace-wallpapers

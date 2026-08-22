@@ -23,7 +23,7 @@ pkgbase = sonic-frameworks-gui-addons
 	optdepends = qt6-declarative: QML bindings
 	provides = kguiaddons
 	conflicts = kguiaddons
-	source = sonic-frameworks-gui-addons-6.27.0.tar.gz::https://github.com/Sonic-DE/sonic-frameworks-gui-addons/archive/refs/tags/6.27.0.tar.gz
+	source = sonic-frameworks-gui-addons-6.29.0.tar.gz::https://github.com/Sonic-DE/sonic-frameworks-gui-addons/archive/refs/tags/6.29.0.tar.gz
 	sha256sums = 339f7da21289a6da39d1a6ae647fee558ed60aabf1568a71125c2ea6d077446d
 
 pkgname = sonic-frameworks-gui-addons

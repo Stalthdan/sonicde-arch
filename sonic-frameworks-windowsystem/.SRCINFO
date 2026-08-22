@@ -21,7 +21,7 @@ pkgbase = sonic-frameworks-windowsystem
 	optdepends = qt6-declarative: QML bindings
 	provides = kwindowsystem
 	conflicts = kwindowsystem
-	source = sonic-frameworks-windowsystem-6.28.0.1.tar.gz::https://github.com/Sonic-DE/sonic-frameworks-windowsystem/archive/refs/tags/6.28.0.1.tar.gz
+	source = sonic-frameworks-windowsystem-6.29.0.tar.gz::https://github.com/Sonic-DE/sonic-frameworks-windowsystem/archive/refs/tags/6.29.0.tar.gz
 	sha256sums = 1fd30e0ef7542b0eb7cc29faa4b64d0832435cc2d611d7edf8dde18ea8871c05
 
 pkgname = sonic-frameworks-windowsystem

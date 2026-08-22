@@ -15,7 +15,7 @@ pkgbase = sonic-frameworks-cmake-modules
 	optdepends = python-yaml: to generate fastlane metadata for Android apps
 	provides = extra-cmake-modules
 	conflicts = extra-cmake-modules
-	source = sonic-frameworks-cmake-modules-6.27.0.1.tar.gz::https://github.com/Sonic-DE/sonic-frameworks-cmake-modules/archive/refs/tags/6.27.0.1.tar.gz
+	source = sonic-frameworks-cmake-modules-6.29.0.tar.gz::https://github.com/Sonic-DE/sonic-frameworks-cmake-modules/archive/refs/tags/6.29.0.tar.gz
 	sha256sums = c926467e2b1f93beaf3835d7fb781949a2a11447b5b3fa978f1dfe3ab269f11a
 
 pkgname = sonic-frameworks-cmake-modules

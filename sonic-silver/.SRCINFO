@@ -31,4 +31,5 @@ pkgbase = sonic-silver
 	conflicts = breeze
 	source = sonic-silver-6.7.4.1.tar.gz::https://github.com/Sonic-DE/sonic-silver/archive/refs/tags/6.7.4.1.tar.gz
 	sha256sums = cc304e03141272f24bc127604f39316d4ff46de64b1599f1037a7097b6211346
+
 pkgname = sonic-silver

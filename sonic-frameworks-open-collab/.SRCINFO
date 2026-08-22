@@ -15,7 +15,7 @@ pkgbase = sonic-frameworks-open-collab
 	depends = qt6-base
 	provides = attica
 	conflicts = attica
-	source = sonic-frameworks-open-collab-6.27.0.tar.gz::https://github.com/Sonic-DE/sonic-frameworks-open-collab/archive/refs/tags/6.27.0.tar.gz
+	source = sonic-frameworks-open-collab-6.29.0.tar.gz::https://github.com/Sonic-DE/sonic-frameworks-open-collab/archive/refs/tags/6.29.0.tar.gz
 	sha256sums = f8b3a2ff0d16d3f9129c4edb7a6b7e13791f6eea8d08e249143ffd0ce75c2a29
 
 pkgname = sonic-frameworks-open-collab
