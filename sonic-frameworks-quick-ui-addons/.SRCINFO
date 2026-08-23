@@ -24,6 +24,8 @@ pkgbase = sonic-frameworks-quick-ui-addons
 	depends = sonic-frameworks-keybind
 	depends = sonic-frameworks-quick-ui
 	depends = sonnet
+	provides = kirigami-addons
+	conflicts = kirigami-addons
 	source = sonic-frameworks-quick-ui-addons-1.13.1.tar.gz::https://github.com/Sonic-DE/sonic-frameworks-quick-ui-addons/archive/refs/tags/1.13.1.tar.gz
 	sha256sums = 6a0950b7d3fe75760883577d913aa96d78848676a741cc3fd34f8088228d3f1a
 
