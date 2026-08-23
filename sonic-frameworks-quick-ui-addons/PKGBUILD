@@ -3,7 +3,7 @@
 
 pkgname=sonic-frameworks-quick-ui-addons
 pkgver=1.13.1
-pkgrel=1
+pkgrel=2
 pkgdesc='Add-ons for the Kirigami framework'
 url='https://github.com/Sonic-DE/sonic-frameworks-quick-ui-addons'
 arch=(x86_64)
