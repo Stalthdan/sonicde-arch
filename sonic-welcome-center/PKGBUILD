@@ -16,7 +16,7 @@ depends=(glibc
          kdbusaddons
          kglobalaccel
          ki18n
-         kirigami-addons
+         sonic-frameworks-quick-ui-addons
          kjobwidgets
          knewstuff
          kservice

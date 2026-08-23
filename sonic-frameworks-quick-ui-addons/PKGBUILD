@@ -27,6 +27,8 @@ depends=(glibc
          sonic-frameworks-quick-ui
          sonnet)
 makedepends=(sonic-frameworks-cmake-modules)
+provides=(kirigami-addons)
+conflicts=(kirigami-addons)
 source=("$pkgname-$pkgver.tar.gz::${url}/archive/refs/tags/${pkgver}.tar.gz")
 sha256sums=('6a0950b7d3fe75760883577d913aa96d78848676a741cc3fd34f8088228d3f1a')
 
