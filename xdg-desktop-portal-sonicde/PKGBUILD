@@ -12,7 +12,7 @@ depends=(glibc
          kconfig
          kcrash
          ki18n
-         kio-fuse
+         sonic-frameworks-io-fuse
          kservice
          kstatusnotifieritem
          knotifications
