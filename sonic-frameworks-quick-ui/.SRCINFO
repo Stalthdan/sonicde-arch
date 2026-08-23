@@ -1,6 +1,6 @@
 pkgbase = sonic-frameworks-quick-ui
 	pkgdesc = A QtQuick based components set
-	pkgver = 6.29.0.1
+	pkgver = 6.29.0.2
 	pkgrel = 1
 	url = https://github.com/Sonic-DE/sonic-frameworks-quick-ui
 	arch = x86_64
@@ -19,7 +19,7 @@ pkgbase = sonic-frameworks-quick-ui
 	depends = qt6-svg
 	provides = kirigami
 	conflicts = kirigami
-	source = sonic-frameworks-quick-ui-6.29.0.1.tar.gz::https://github.com/Sonic-DE/sonic-frameworks-quick-ui/archive/refs/tags/6.29.0.1.tar.gz
-	sha256sums = a092bbe4e0ad919e973ece9d0ba54c1f51013ae86d63fb1a7ddfd5a88b9d3b67
+	source = sonic-frameworks-quick-ui-6.29.0.2.tar.gz::https://github.com/Sonic-DE/sonic-frameworks-quick-ui/archive/refs/tags/6.29.0.2.tar.gz
+	sha256sums = cc4ada196bc0aab34490f6a0006dd7ecf4aa90977a91251fcae5e0d88b1b6af9
 
 pkgname = sonic-frameworks-quick-ui
