@@ -1,8 +1,7 @@
 pkgbase = sonic-screenies
 	pkgdesc = SonicDE screenshot capture utility
 	pkgver = 6.7.4.2
-	pkgrel = 1
-	epoch = 1
+	pkgrel = 2
 	url = https://github.com/Sonic-DE/sonic-screenies
 	arch = x86_64
 	groups = sonicde
