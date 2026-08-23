@@ -20,7 +20,8 @@ depends=(ffmpeg
          qt6-base
          qt6-declarative
          sonic-frameworks-core-addons)
-makedepends=(sonic-frameworks-cmake-modules)
+makedepends=(ki18n
+             sonic-frameworks-cmake-modules)
 provides=(kpipewire)
 conflicts=(kpipewire)
 groups=(sonicde)
