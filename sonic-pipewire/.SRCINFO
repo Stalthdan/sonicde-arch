@@ -6,6 +6,7 @@ pkgbase = sonic-pipewire
 	arch = x86_64
 	groups = sonicde
 	license = LGPL-2.0-or-later
+	makedepends = ki18n
 	makedepends = sonic-frameworks-cmake-modules
 	depends = ffmpeg
 	depends = glibc
