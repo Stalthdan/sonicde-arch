@@ -16,7 +16,6 @@ depends=(glibc
          kdbusaddons
          kglobalaccel
          ki18n
-         sonic-frameworks-quick-ui-addons
          kjobwidgets
          knewstuff
          kservice
@@ -31,6 +30,7 @@ depends=(glibc
          sonic-frameworks-core-addons
          sonic-frameworks-io
          sonic-frameworks-quick-ui
+         sonic-frameworks-quick-ui-addons
          sonic-frameworks-windowsystem
          sonic-interface-libraries
          sonic-network-manager)

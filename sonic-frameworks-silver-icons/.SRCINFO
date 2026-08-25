@@ -1,5 +1,5 @@
 pkgbase = sonic-frameworks-silver-icons
-	pkgdesc = Breeze icon theme
+	pkgdesc = Silver icon theme
 	pkgver = 6.29.0
 	pkgrel = 1
 	url = https://github.com/Sonic-DE/sonic-frameworks-silver-icons

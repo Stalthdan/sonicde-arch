@@ -1,5 +1,5 @@
 pkgbase = sonic-silver-gtk
-	pkgdesc = Breeze widget theme for GTK 2 and 3
+	pkgdesc = Silver widget theme for GTK 2 and 3
 	pkgver = 6.7.4
 	pkgrel = 1
 	url = https://github.com/Sonic-DE/sonic-silver-gtk

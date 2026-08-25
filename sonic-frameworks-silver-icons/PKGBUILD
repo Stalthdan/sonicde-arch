@@ -5,8 +5,8 @@
 
 pkgname=sonic-frameworks-silver-icons
 pkgver=6.29.0
-pkgrel=1
-pkgdesc='Breeze icon theme'
+pkgrel=2
+pkgdesc='Silver icon theme'
 arch=(x86_64)
 url='https://github.com/Sonic-DE/sonic-frameworks-silver-icons'
 license=(LGPL-3.0-or-later
