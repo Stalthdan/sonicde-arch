@@ -1,7 +1,7 @@
 pkgbase = sonic-frameworks-silver-icons
 	pkgdesc = Silver icon theme
 	pkgver = 6.29.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/Sonic-DE/sonic-frameworks-silver-icons
 	arch = x86_64
 	groups = sonicde-frameworks
